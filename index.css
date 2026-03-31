@@ -467,6 +467,14 @@ body:not(.user-is-tabbing) a:focus {
     flex: 0 0 30%;
 }
 
+.work__meta {
+    color: var(--pink);
+    font-family: 'Jost', sans-serif;
+    font-size: var(--font-size-small);
+    margin: var(--gutter-small) 0;
+    font-style: italic;
+}
+
 .work__list {
     /* list-style-type: square; */
     list-style-position: inside;
@@ -507,6 +515,20 @@ body:not(.user-is-tabbing) a:focus {
 
 .justify{
     text-align: justify;
+}
+
+/* ----- Image size adjustments ----- */
+
+.work__image--euroinfo {
+    width: 70%;
+}
+
+.work__image--education {
+    width: 120%;
+}
+
+.work__image--sql {
+    width: 85%;
 }
 
 /* --------------------------------------- */
@@ -576,6 +598,24 @@ body:not(.user-is-tabbing) a:focus {
 
 .contact__info {
     max-width: var(--container-medium-width);
+}
+
+.contact__details {
+    margin-top: var(--gutter-normal);
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    margin: var(--gutter-small) 0;
+    font-size: var(--font-size-normal);
+}
+
+.contact__icon {
+    font-size: 2.5rem;
+    margin-right: var(--gutter-small);
+    width: 4rem;
+    text-align: center;
 }
 
 /* --------------------------------------- */

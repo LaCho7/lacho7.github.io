@@ -1,251 +1,664 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            type="image/png"
+            href="./images/favicon.png"
+        />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+        <title>ePortfolio</title>
 
-  <title>
-    ePortfolio
-  </title>
+        <meta name="description" content="Masson Louis" />
+        <meta
+            name="keywords"
+            content="MASSON Louis, HTML, CSS,Tailwind, Java, JavaScript, SQL, PLSQL, Méthodes Agiles"
+        />
+        <link rel="stylesheet" href="index.css" />
+    </head>
 
-  <meta name="description" content="Masson Louis">
-  <meta name="keywords" content="MASSON Louis, HTML, CSS,Tailwind, Java, JavaScript, SQL, PLSQL, Méthodes Agiles" />
-  <link rel="stylesheet" href="index.css" />
-</head>
+    <body>
+        <!-- ***** Header ***** -->
 
-<body>
+        <header class="header" role="banner" id="top">
+            <div class="row">
+                <nav class="nav" role="navigation">
+                    <ul class="nav__items">
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">À propos</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link"
+                                >Expériences</a
+                            >
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link"
+                                >Formations</a
+                            >
+                        </li>
+                        <li class="nav__item">
+                            <a href="#clients" class="nav__link">Compétences</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">Projets</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__text-box row">
+                <div class="header__text">
+                    <h1 class="heading-primary">
+                        <span>MASSON Louis</span>
+                    </h1>
+                    <p>Étudiant en Master MIAGE à l'Université Paris Cité</p>
+                    <a
+                        href="mailto:louisn.masson@gmail.com"
+                        class="btn btn--pink"
+                        >louisn.masson@gmail.com</a
+                    >
+                </div>
+            </div>
+        </header>
 
-  <!-- ***** Header ***** -->
+        <main role="main">
+            <!-- ***** About ***** -->
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Projets</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Compétences</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">Moi</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <span>MASSON Louis</span>
-        </h1>
-        <p>Etudiant à Université Paris Cité en 2ème année</p>
-        <a href="#contact" class="btn btn--pink">Me Contacter</a>
-      </div>
-    </div>
-  </header>
+            <section class="about" id="about">
+                <div class="row">
+                    <h2>À Propos de Moi</h2>
+                    <div class="about__content">
+                        <div class="about__text">
+                            <p class="justify">
+                                Passionné d'informatique, je suis un futur
+                                diplômé du Master MIAGE avec une spécialisation
+                                en valorisation et protection des données. Mon
+                                parcours m'a permis de développer une solide
+                                expertise back-end, particulièrement en C++, C#
+                                et Python, à travers trois années d'alternance
+                                et un stage international.
+                                <br /><br />
+                                Calme, curieux et doté d'un bon esprit d'équipe,
+                                je mets ma rigueur au service de projets
+                                complexes. Je suis activement à la recherche
+                                d'un poste d'Analyste Développeur en CDI pour
+                                janvier 2026.
+                            </p>
+                        </div>
+                        <div class="about__photo-container">
+                            <img
+                                class="about__photo"
+                                src="images/MassonLouis.jpg"
+                                alt=""
+                                id="louis"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-  <main role="main">
+            <!-- ***** Experience ***** -->
 
-    <!-- ***** Work ***** -->
+            <section class="work" id="experience">
+                <div class="row">
+                    <h2>Mes Expériences</h2>
+                    <div class="work__boxes">
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>
+                                    Euro-Information – Analyste Développeur
+                                    (Alternance)
+                                </h3>
+                                <p class="work__meta">
+                                    Secteur Salle des marchés | Paris | 2024 -
+                                    2026
+                                </p>
+                                <p class="justify">
+                                    <strong>Mission :</strong> Conception,
+                                    développement et maintenance de nouvelles
+                                    fonctionnalités sur le progiciel financier
+                                    Summi.
+                                </p>
+                                <p class="justify">
+                                    <strong>Technique :</strong> Développement
+                                    orienté objet en C++.
+                                </p>
+                                <p class="justify">
+                                    <strong>Métier :</strong> Analyse des
+                                    besoins spécifiques aux activités de salle
+                                    des marchés et respect rigoureux de la
+                                    méthodologie du Cycle en V pour garantir la
+                                    fiabilité des livrables.
+                                </p>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/Batiment_Victoire_Paris.png"
+                                    class="work__image work__image--euroinfo"
+                                    alt="Euro-Information Paris"
+                                />
+                            </div>
+                        </div>
 
-    <section class="work" id="work">
-      <div class="row">
-        <h2>Mes Projets</h2>
-        <div class="work__boxes">
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>
+                                    Euro-Information – Analyste Développeur
+                                    (Alternance)
+                                </h3>
+                                <p class="work__meta">
+                                    Secteur Affacturage | Courbevoie | 2023 -
+                                    2024
+                                </p>
+                                <p class="justify">
+                                    <strong>Mission :</strong> Développement et
+                                    évolution d'applications métiers en
+                                    utilisant un framework interne.
+                                </p>
+                                <p class="justify">
+                                    <strong>Technique :</strong> Programmation
+                                    en C#.
+                                </p>
+                                <p class="justify">
+                                    <strong>Projet clé :</strong> Participation
+                                    active aux chantiers d'internationalisation
+                                    des outils informatiques pour répondre aux
+                                    enjeux globaux de l'entreprise.
+                                </p>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/tour_d2.png"
+                                    class="work__image work__image--euroinfo"
+                                    alt="Euro-Information Courbevoie"
+                                />
+                            </div>
+                        </div>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Projet Web</h3>
-              <p class="justify">
-                Projet mis en ligne qui permet de trouver des restaurants proches du lieu indiqué dans un rayon (en km)<br>
-                Une fois avoir créé un compte et que l'utilisateur est connecté, il peut ajouter un commentaire et une note à un restaurant
-              </p>
-              <ul class="work__list">
-                <a class="underline">Compétences acquises:</a>
-                <li>HTML</li>
-                <li>Tailwind CSS</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-              </ul>
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>
+                                    Abiaka – Développeur d'application (Stage)
+                                </h3>
+                                <p class="work__meta">Vietnam | 2023</p>
+                                <p class="justify">
+                                    <strong>Mission :</strong> Développement
+                                    from scratch (de zéro) d'une application
+                                    interne.
+                                </p>
+                                <p class="justify">
+                                    <strong>Technique :</strong> Programmation
+                                    en Python, gestion des bases de données en
+                                    SQL et mise en place de l'architecture via
+                                    le framework Django.
+                                </p>
+                                <p class="justify">
+                                    <strong>Méthodologie :</strong> Travail
+                                    itératif et respect des méthodes Agiles tout
+                                    au long du cycle de vie du projet.
+                                </p>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/abiaka.png"
+                                    class="work__image"
+                                    alt="Abiaka Vietnam"
+                                />
+                            </div>
+                        </div>
 
-              <div class="work__links">
-                <!--
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Société Générale – Auxiliaire d'été</h3>
+                                <p class="work__meta">
+                                    Courbevoie | 2022 | 1 mois
+                                </p>
+                                <p class="justify">
+                                    <strong>Mission :</strong> Numérisation des
+                                    dossiers de financements faits par les
+                                    collaborateurs.
+                                </p>
+                                <p class="justify">
+                                    <strong>Tâches :</strong> Gestion des boîtes
+                                    d'archives.
+                                </p>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/tour_sg.jpg"
+                                    class="work__image"
+                                    alt="Société Générale Courbevoie"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Société Générale – Auxiliaire d'été</h3>
+                                <p class="work__meta">
+                                    La Défense | 2021 | 1 mois
+                                </p>
+                                <p class="justify">
+                                    <strong>Mission :</strong> Vérification des
+                                    notes de frais des collaborateurs.
+                                </p>
+                                <p class="justify">
+                                    <strong>Tâches :</strong> Contacts et appels
+                                    pour régulariser les erreurs dans les notes
+                                    de frais.
+                                </p>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/société_générale.webp"
+                                    class="work__image"
+                                    alt="Société Générale La Défense"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ***** Education ***** -->
+
+            <section class="work" id="education">
+                <div class="row">
+                    <h2>Mes Formations</h2>
+                    <div class="work__boxes">
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Master MIAGE</h3>
+                                <p class="work__meta">
+                                    Parcours : Valorisation et protection des
+                                    données de l'entreprise | Université de
+                                    Paris Cité | 2024 - 2026
+                                </p>
+                                <p class="justify">
+                                    Formation spécialisée en Management
+                                    Informatique avec une expertise en
+                                    valorisation et protection des données.
+                                </p>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/campus_saint_germain_des_pres.jpg"
+                                    class="work__image"
+                                    alt="Master MIAGE"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Formation Microsoft SQL Server</h3>
+                                <p class="work__meta">
+                                    Développement et optimisation | 2025
+                                </p>
+                                <p class="justify">
+                                    Formation certifiante sur le développement
+                                    et l'optimisation de bases de données avec
+                                    Microsoft SQL Server.
+                                </p>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/MSSQL.png"
+                                    class="work__image work__image--sql"
+                                    alt="Microsoft SQL Server"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>
+                                    Bachelor Universitaire de Technologie (BUT)
+                                    en informatique
+                                </h3>
+                                <p class="work__meta">
+                                    IUT de Paris - Rives de Seine | 2021 - 2024
+                                </p>
+                                <p class="justify">
+                                    Formation généraliste en informatique
+                                    couvrant le développement, les bases de
+                                    données, les réseaux et les méthodes agiles.
+                                </p>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/BUT.jpg"
+                                    class="work__image work__image--education"
+                                    alt="IUT Paris"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Baccalauréat STI2D</h3>
+                                <p class="work__meta">
+                                    Spécialité SIN | Mention Très Bien | 2018 -
+                                    2021
+                                </p>
+                                <p class="justify">
+                                    Sciences et Technologies de l'Industrie et
+                                    du Développement Durable, spécialité
+                                    Systèmes d'Information et Numérique.
+                                </p>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/leonard_de_vinci.jpg"
+                                    class="work__image work__image--education"
+                                    alt="Bac STI2D"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ***** Work ***** -->
+
+            <section class="work" id="work">
+                <div class="row">
+                    <h2>Mes Projets</h2>
+                    <div class="work__boxes">
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Projet Web</h3>
+                                <p class="justify">
+                                    Projet mis en ligne qui permet de trouver
+                                    des restaurants proches du lieu indiqué dans
+                                    un rayon (en km)<br />
+                                    Une fois avoir créé un compte et que
+                                    l'utilisateur est connecté, il peut ajouter
+                                    un commentaire et une note à un restaurant
+                                </p>
+                                <ul class="work__list">
+                                    <a class="underline"
+                                        >Compétences acquises:</a
+                                    >
+                                    <li>HTML</li>
+                                    <li>Tailwind CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>PHP</li>
+                                </ul>
+
+                                <div class="work__links">
+                                    <!--
                 <a href="https://pj-web-pb.alwaysdata.net/index.html" target="_blank" class="link__text">
                   OuManger? <span>&rarr;</span>
                 </a>
                 -->
-                <a href="https://github.com/LaCho7/OuManger" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
+                                    <a
+                                        href="https://github.com/LaCho7/OuManger"
+                                        class="link__text"
+                                        target="_blank"
+                                    >
+                                        Lien Github <span>&rarr;</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/LaCho7/OuManger"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="./images/github.svg"
+                                            class="work__code"
+                                            alt="GitHub"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/oumanger.PNG"
+                                    class="work__image"
+                                    alt="Project 1"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Projet Hex</h3>
+                                <p class="justify">
+                                    Projet Java qui consiste simplement au jeu
+                                    Hex, il peut être joué entre deux joueurs,
+                                    deux IA, ou un joueur et une IA.
+                                </p>
+                                <ul class="work__list">
+                                    <a class="underline"
+                                        >Compétences acquises:</a
+                                    >
+                                    <li>Java</li>
+                                </ul>
+
+                                <div class="work__links">
+                                    <a
+                                        href="https://github.com/Ali-Thi/Hex-Ilyas-Louis-Ali-201-202"
+                                        class="link__text"
+                                        target="_blank"
+                                    >
+                                        Lien Github <span>&rarr;</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/Ali-Thi/Hex-Ilyas-Louis-Ali-201-202"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="./images/github.svg"
+                                            class="work__code"
+                                            title="View Source Code"
+                                            alt="GitHub"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/hex.jpg"
+                                    class="work__image"
+                                    alt="Project 1"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Refonte de site</h3>
+                                <p class="justify">
+                                    Projet d'amélioration de site web. nous
+                                    sommes partie d'un site d'une agglomération
+                                    qui existe : Beauvaisis<br />
+                                    <a
+                                        href="https://beauvaisis.fr/"
+                                        class="link__text"
+                                        target="_blank"
+                                    >
+                                        Site de Beauvaisis <span>&rarr;</span>
+                                    </a>
+                                    <br /><br />
+                                    Nous avons fait la conception, la maquette
+                                    et trouver comment améliorer ce site web
+                                </p>
+                                <ul class="work__list">
+                                    <a class="underline"
+                                        >Compétences acquises:</a
+                                    >
+                                    <li>Bootstrap</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>SQL (ACCESS)</li>
+                                </ul>
+
+                                <div class="work__links">
+                                    <a
+                                        href="https://github.com/Ali-Thi/SAE_SITE_WEB"
+                                        class="link__text"
+                                        target="_blank"
+                                    >
+                                        Lien Github <span>&rarr;</span>
+                                    </a>
+                                    <a>
+                                        <img
+                                            src="./images/github.svg"
+                                            class="work__code"
+                                            title="View Source Code"
+                                            alt="GitHub"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/beauvaisis.PNG"
+                                    class="work__image"
+                                    alt="Project 3"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ***** Compétences ***** -->
+
+            <section class="client" id="clients">
+                <div class="row">
+                    <h2>Compétences</h2>
+                    <h3>Web</h3>
+                    <div class="client__logos">
+                        <img
+                            src="./images/html.webp"
+                            class="client__logo"
+                            alt="Compétence 1"
+                        />
+                        <img
+                            src="./images/css.webp"
+                            class="client__logo"
+                            alt="Compétence 2"
+                        />
+                        <img
+                            src="./images/tailwind.webp"
+                            class="client__logo"
+                            alt="Compétence 3"
+                        />
+                        <img
+                            src="./images/js.webp"
+                            class="client__logo"
+                            alt="Compétence 4"
+                        />
+                        <img
+                            src="./images/bootstrap.webp"
+                            class="client__logo"
+                            alt="Compétence 5"
+                        />
+                    </div>
+                    <br />
+                    <h3>Développement</h3>
+                    <div class="client__logos">
+                        <img
+                            src="./images/java.webp"
+                            class="client__logo"
+                            alt="Compétence 1"
+                        />
+                        <img
+                            src="./images/c.webp"
+                            class="client__logo"
+                            alt="Compétence 2"
+                        />
+                        <img
+                            src="./images/c++.webp"
+                            class="client__logo"
+                            alt="Compétence 3"
+                        />
+                        <img
+                            src="./images/pyhton.webp"
+                            class="client__logo"
+                            alt="Compétence 4"
+                        />
+                        <img
+                            src="./images/vb.webp"
+                            class="client__logo"
+                            alt="Compétence 5"
+                        />
+                    </div>
+                    <br />
+                    <h3>Base de données</h3>
+                    <div class="client__logos">
+                        <img
+                            src="./images/sql.webp"
+                            class="client__logo"
+                            alt="Compétence 1"
+                        />
+                        <img
+                            src="./images/plsql.webp"
+                            class="client__logo"
+                            alt="Compétence 2"
+                        />
+                        <img
+                            src="./images/php.webp"
+                            class="client__logo"
+                            alt="Compétence 3"
+                        />
+                        <img
+                            src="./images/phpmyadmin.webp"
+                            class="client__logo"
+                            alt="Compétence 4"
+                        />
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- ***** Footer ***** -->
+
+        <footer role="contentinfo" class="footer">
+            <div class="row">
+                <ul class="footer__social-links">
+                    <li class="footer__social-link-item">
+                        <a
+                            href="https://github.com/LaCho7/"
+                            title="Link to Github Profile"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/github.svg"
+                                class="footer__social-image"
+                                alt="Github"
+                            />
+                        </a>
+                    </li>
+                    <li class="footer__social-link-item">
+                        <a
+                            href="https://www.linkedin.com/in/louis-masson-453a5825b/"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/linkedin.svg"
+                                title="Link to Linkedin Profile"
+                                class="footer__social-image"
+                                alt="Linkedin"
+                            />
+                        </a>
+                    </li>
+                </ul>
+
+                <p>&copy; 2026 - Masson Louis</p>
             </div>
-            <div class="work__image-box">
-              <img src="./images/oumanger.PNG" class="work__image" alt="Project 1" />
-            </div>
-          </div>
+        </footer>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Projet Hex</h3>
-              <p class="justify">
-                Projet Java qui consiste simplement au jeu Hex, il peut être joué entre deux joueurs, deux IA, ou un joueur et une IA.
-              </p>
-              <ul class="work__list">
-                <a class="underline">Compétences acquises:</a>
-                <li>Java</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/Ali-Thi/Hex-Ilyas-Louis-Ali-201-202" class="link__text" target="_blank" >
-                  Lien Github  <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/Ali-Thi/Hex-Ilyas-Louis-Ali-201-202" target="_blank" >
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub" >
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/hex.jpg" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Refonte de site</h3>
-              <p class="justify">
-                Projet d'amélioration de site web. nous sommes partie d'un site d'une agglomération qui existe : Beauvaisis<br>
-                <a href="https://beauvaisis.fr/" class="link__text" target="_blank" >
-                Site de Beauvaisis <span>&rarr;</span>
-                </a>
-                <br><br>
-                Nous avons fait la conception, la maquette et trouver comment améliorer ce site web
-              </p>
-              <ul class="work__list">
-                <a class="underline">Compétences acquises:</a>
-                <li>Bootstrap</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SQL (ACCESS)</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/Ali-Thi/SAE_SITE_WEB" class="link__text" target="_blank" >
-                  Lien Github <span>&rarr;</span>
-                </a>
-                <a>
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-              </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/beauvaisis.PNG" class="work__image" alt="Project 3" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** Compétences ***** -->
-
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Compétences</h2>
-        <h3>Web</h3>
-        <div class="client__logos">
-          <img src="./images/html.webp" class="client__logo" alt="Compétence 1" />
-          <img src="./images/css.webp" class="client__logo" alt="Compétence 2" />
-          <img src="./images/tailwind.webp" class="client__logo" alt="Compétence 3" />
-          <img src="./images/js.webp" class="client__logo" alt="Compétence 4" />
-          <img src="./images/bootstrap.webp" class="client__logo" alt="Compétence 5" />
-        </div><br>
-        <h3>Développement</h3>
-        <div class="client__logos">
-          <img src="./images/java.webp" class="client__logo" alt="Compétence 1" />
-          <img src="./images/c.webp" class="client__logo" alt="Compétence 2" />
-          <img src="./images/c++.webp" class="client__logo" alt="Compétence 3" />
-          <img src="./images/pyhton.webp" class="client__logo" alt="Compétence 4" />
-          <img src="./images/vb.webp" class="client__logo" alt="Compétence 5" />
-        </div><br>
-        <h3>Base de données</h3>
-        <div class="client__logos">
-          <img src="./images/sql.webp" class="client__logo" alt="Compétence 1" />
-          <img src="./images/plsql.webp" class="client__logo" alt="Compétence 2" />
-          <img src="./images/php.webp" class="client__logo" alt="Compétence 3" />
-          <img src="./images/phpmyadmin.webp" class="client__logo" alt="Compétence 4" />
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>A Propos de Moi</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <p class="justify">
-              Né à Paris, je suis passioné depuis mon plus jeune âge par la programmation informatique.
-              Aujourd'hui, je suis étudiant en deuxième année de BUT Informatique à l'IUT de Paris - Rives de Seine. 
-              Je suis curieux, j'aime découvrir et m'approprier de nouvelles technologies.
-              <br>
-              Je suis aussi passionné par la musique, le sport et les jeuxde réflexion.
-              Je joue du piano depuis monplus jeune âge, je fais du tennis de table et j'aime jouer aux Echecs.
-              <br>
-              Je suis organisé, autonome, rigoureux et j'aime m'appliquer à fond dans ce que j'entreprends.
-            </p>
-
-          </div>
-          <div class="about__photo-container">
-            <img class="about__photo" src="images/MassonLouis.jpg" alt="" id="louis"/>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Me Contacter</h2>
-      <div class="contact__info">
-        <p>
-          Vous trouverez ci-dessous mon adresse mail.<br>
-          Je vous répondrai dans les meilleurs délais.
-        </p>
-        <a href="mailto:louisn.masson@gmail.com" class="btn" target="_blank" >louisn.masson@gmail.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://github.com/LaCho7/" title="Link to Github Profile" target="_blank" >
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/louis-masson-453a5825b/" target="_blank" >
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-      <p>
-        &copy; 2023 - Masson Louis
-      </p>
-    </div>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
-</body>
-
+        <a href="#top" class="back-to-top" title="Back to Top">
+            <img
+                src="./images/arrow-up.svg"
+                alt="Back to Top"
+                class="back-to-top__image"
+            />
+        </a>
+        <script src="./index.js"></script>
+    </body>
 </html>
